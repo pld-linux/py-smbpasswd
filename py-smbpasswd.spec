@@ -9,8 +9,9 @@ License:	GPL
 Group:		Development/Languages/Python
 Source0:	http://barryp.org/software/py-smbpasswd/files/%{name}-%{version}.tar.gz
 # Source0-md5:	0eab2c29588e32e77ce6e5d2faea7874
-BuildRequires:	python-devel
 URL:		http://barryp.org/software/py-smbpasswd/
+BuildRequires:	python-devel
+%pyrequires_eq	python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
