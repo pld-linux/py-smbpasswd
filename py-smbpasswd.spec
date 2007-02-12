@@ -1,7 +1,7 @@
 %define 	module smbpasswd
 
 Summary:	Python package providing SMB Password Hash Generator
-Summary(pl):	Pakiet Pythona generuj±cy skróty LM/NT takie jak smbpasswd
+Summary(pl.UTF-8):   Pakiet Pythona generujÄ…cy skrÃ³ty LM/NT takie jak smbpasswd
 Name:		py-%{module}
 Version:	1.0.1
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module can generate both LANMAN and NT password hashes, suitable
 for use with Samba.
 
-%description -l pl
-Ten modu³ udostêpnia funkcje do generowania skrótów LM/NT, u¿ywanych w
-plikach z has³ami dla Samby - tak, jak robi to program smbpasswd.
+%description -l pl.UTF-8
+Ten moduÅ‚ udostÄ™pnia funkcje do generowania skrÃ³tÃ³w LM/NT, uÅ¼ywanych w
+plikach z hasÅ‚ami dla Samby - tak, jak robi to program smbpasswd.
 
 %prep
 %setup -q
