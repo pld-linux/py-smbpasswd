@@ -4,7 +4,7 @@ Summary:	Python package providing SMB Password Hash Generator
 Summary(pl.UTF-8):	Pakiet Pythona generujący skróty LM/NT takie jak smbpasswd
 Name:		py-%{module}
 Version:	1.0.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Python
 Source0:	http://barryp.org/software/py-smbpasswd/files/%{name}-%{version}.tar.gz
